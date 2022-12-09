@@ -1,0 +1,56 @@
+body{
+	width:100%;
+	overflow-x: hidden;
+}
+.ul{
+		   list-style-type:none;
+		   display:inline-flex;
+		   margin-top:30px;
+		}
+		a{
+          text-decoration:none;
+          color:whitesmoke;
+		}
+		li{
+		   margin-left:70px;
+		}
+		.logo{
+			  height:50px;
+			  width:100px;
+			  margin-top:-10px;
+			  border-radius:5px;
+		}
+		button{
+			   color:whitesmoke;
+			   background-color:black;
+			   padding:5px 10px 5px 10px;
+		}
+		.main{
+			  width:230%;
+		}
+		.home{
+			  height:550px;
+			  width:100%;
+			  position:absolute;
+			  margin-top:-25px;
+		}
+		.listdiv{
+			     background-color:gray;
+			     height:550px;
+			     width:100%;
+			     margin-top:-20px;
+
+		}
+		.addbox{
+			    height:300px;
+			    width:100%;
+			    background-color:whitesmoke;
+		}
+@media only screen and (max-width:600px)
+  {
+	.home{
+		   width:230%;
+		   height:1200px;
+		  }
+  }
+		
